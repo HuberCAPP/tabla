@@ -1,0 +1,227 @@
+body{
+  background-color: rgb(255, 196, 0);
+}
+
+
+
+.columna1 div, .columna2 div, .columna3 div, .columna4 div, .columna5 div,
+ .columna6 div, .columna7 div, .columna8 div, .columna9 div, .columna10 div, 
+ .columna11 div, .columna12 div, .columna13 div, .columna14 div, .columna15 div,
+ .columna16 div, .columna17 div, .columna18 div, .columna19 div, .columna20 div,
+ .columna21 div, .columna22 div, .columna23 div, .columna24 div, .columna25 div, .columna26 div, .columna27 div,
+ .columna28 div, .columna29 div, .columna30 div, .columna31 div, .columna32 div{
+
+   
+ width: 50px;
+    height: 50px;
+    border: solid rgb(238, 238, 238) 1px;
+    text-align: center;
+    border-radius: 2 px; 
+}
+
+  
+
+
+.atomico{
+    font-size: 12px;
+    line-height: -3px;
+    display: flex;
+    flex-direction: column;
+}
+.simbolo{
+    font-size: 10px;
+    line-height: -3px;
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    font-size: 9px;
+    line-height: -3px;
+    display: flex;
+    flex-direction: column;
+}
+.VALENCIA{
+  font-size: 9px;
+  line-height: -2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.peso{
+  font-size: 9px;
+  line-height: -2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.configuracion{
+  font-size: 9px;
+  line-height: -2px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.table {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 2, 2);
+    
+    
+  }
+
+
+.table div div{
+  transition:  0.3s ease;
+  border-radius: 5px;
+}
+
+.table div div:hover{
+  transform: rotate(360deg) scale(1.2) translate(20px, 10px);
+
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-right: 15%;
+  }
+  
+  
+  .columna2 {
+    margin-top: 50px; 
+  }
+
+  .columna3, .columna4, .columna5, 
+  .columna6, .columna7,.columna8,
+  .columna9, .columna10, .columna11,
+  .columna12 {
+    margin-top: 150px; 
+ }
+
+
+  
+  .columna13, .columna14, .columna15,
+  .columna16, .columna17 {
+    margin-top: 50px; 
+  }
+
+
+
+  .fila {
+    margin-top: 50px; 
+  }
+
+
+
+  
+
+.container-todo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datosColumna{
+  width: 500px;
+  height: auto;
+  background-color: rgb(0, 225, 255);
+  padding: 20px;
+  text-align:center;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(255, 255, 255,0.4);
+}
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    
+  }
+
+
+/*#datosColumna {
+     
+  width: 300px;
+  height: auto; 
+  background-color: rgb(0, 225, 255);
+  padding: 20px;
+  position: relative;
+  top: -400px;
+  left: 50px;
+  text-align:center;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(255, 255, 255,0.4);
+} */
+
+
+.datos-elementos{
+  font-size: 20px;
+
+}
+
+
+.columna1 div:nth-child(1)
+{
+  background-color: rgb(47, 97, 0);
+}
+
+.columna1 div:nth-child(2)
+,.columna1 div:nth-child(3)
+,.columna1 div:nth-child(4)
+,.columna1 div:nth-child(5)
+,.columna1 div:nth-child(6)
+,.columna1 div:nth-child(7)
+{
+  background-color: rgb(199, 14, 14);
+}
+
+
+.columna2 div:nth-child(1)
+,.columna2 div:nth-child(2)
+,.columna2 div:nth-child(3)
+,.columna2 div:nth-child(4)
+,.columna2 div:nth-child(5)
+,.columna2 div:nth-child(6)
+
+{
+  background-color: rgb(255, 95, 3);
+}
+
+.columna3 div,
+.columna4 div,
+.columna5 div 
+,.columna6 div 
+,.columna7 div 
+,.columna8 div
+,.columna9 div
+,.columna10 div
+,.columna11 div
+,.columna12 div     
+
+{
+  background-color: rgb(3, 247, 255);
+}
+
+.columna13 div
+,.columna14 div     
+
+{
+  background-color: rgb(95, 255, 3);
+}
+
+.columna15 div
+,.columna16 div     
+
+{
+  background-color: rgb(121, 3, 255);
+}
+
+.columna17 div
+,.columna18 div     
+
+{
+  background-color: rgb(255, 3, 150);
+}
